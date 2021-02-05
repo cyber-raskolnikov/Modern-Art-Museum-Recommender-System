@@ -1,0 +1,2063 @@
+; Fri Dec 04 17:49:43 CET 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([ontologia_Class0] of  SALA
+
+	(sala_escuela [ontologia_Class18])
+	(sala_obra
+		[ontologia_Class30025]
+		[ontologia_Class30026]
+		[ontologia_Class30027]
+		[ontologia_Class30028]
+		[ontologia_Class30029]))
+
+([ontologia_Class1] of  SALA
+
+	(sala_escuela [ontologia_Class19])
+	(sala_obra
+		[ontologia_Class30030]
+		[ontologia_Class30033]
+		[ontologia_Class30034]
+		[ontologia_Class30036]
+		[ontologia_Class30038]
+		[ontologia_Class30039]
+		[ontologia_Class30040]
+		[ontologia_Class30042]))
+
+([ontologia_Class10] of  SALA
+
+	(sala_escuela [ontologia_Class5])
+	(sala_obra
+		[ontologia_Class7]
+		[ontologia_Class10000]
+		[ontologia_Class10012]
+		[ontologia_Class10001]
+		[ontologia_Class10002]
+		[ontologia_Class20004]
+		[ontologia_Class30005]
+		[ontologia_Class30006]
+		[ontologia_Class30008]
+		[ontologia_Class30009]
+		[ontologia_Class30010]))
+
+([ontologia_Class10000] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "GALATEA DE LAS ESFERAS")
+	(obra_autor [ontologia_Class6])
+	(obra_epoca [ontologia_Class50])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 1))
+
+([ontologia_Class10001] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "REMINISCENCIA ARQUEOLOGICA DEL ANGELUS DE MILLET")
+	(obra_autor [ontologia_Class6])
+	(obra_epoca [ontologia_Class48])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 1))
+
+([ontologia_Class10002] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto TRUE)
+	(nombre_obra "LA TENTACION DE SAN ANTONIO")
+	(obra_autor [ontologia_Class6])
+	(obra_epoca [ontologia_Class49])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica
+		[ontologia_Class10003]
+		[ontologia_Class30031])
+	(relevancia 2))
+
+([ontologia_Class10003] of  TEMATICA
+
+	(nombre_tematica "RELIGION")
+	(tematica_obras
+		[ontologia_Class10002]
+		[ontologia_Class40013]))
+
+([ontologia_Class10004] of  TEMATICA
+
+	(nombre_tematica "NATURALEZA")
+	(tematica_obras
+		[ontologia_Class20004]
+		[ontologia_Class30008]
+		[ontologia_Class30019]
+		[ontologia_Class30004]
+		[ontologia_Class40005]
+		[ontologia_Class50013]
+		[ontologia_Class50014]))
+
+([ontologia_Class10005] of  SALA
+
+	(sala_escuela [ontologia_Class17])
+	(sala_obra
+		[ontologia_Class30019]
+		[ontologia_Class30020]
+		[ontologia_Class30021]
+		[ontologia_Class30022]
+		[ontologia_Class30023]
+		[ontologia_Class30024]))
+
+([ontologia_Class10006] of  SALA
+
+	(sala_escuela [ontologia_Class14])
+	(sala_obra
+		[ontologia_Class40007]
+		[ontologia_Class40009]
+		[ontologia_Class40010]))
+
+([ontologia_Class10007] of  SALA
+
+	(sala_escuela [ontologia_Class24])
+	(sala_obra
+		[ontologia_Class50012]
+		[ontologia_Class50013]
+		[ontologia_Class50014]
+		[ontologia_Class50016]
+		[ontologia_Class50017]
+		[ontologia_Class50018]))
+
+([ontologia_Class10008] of  SALA
+
+	(sala_escuela [ontologia_Class22])
+	(sala_obra
+		[ontologia_Class30000]
+		[ontologia_Class30001]
+		[ontologia_Class30002]
+		[ontologia_Class30003]
+		[ontologia_Class40004]
+		[ontologia_Class50005]
+		[ontologia_Class50006]))
+
+([ontologia_Class10009] of  SALA
+
+	(sala_escuela [ontologia_Class23])
+	(sala_obra
+		[ontologia_Class50007]
+		[ontologia_Class50008]
+		[ontologia_Class50009]))
+
+([ontologia_Class10010] of  ESCUELA
+
+	(nombre_escuela "NO ESCUELA"))
+
+([ontologia_Class10011] of  SALA
+
+	(sala_escuela [ontologia_Class10010]))
+
+([ontologia_Class10012] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "LA NOIA EN LA FINESTRA")
+	(obra_autor [ontologia_Class6])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 3))
+
+([ontologia_Class12] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30009]
+		[ontologia_Class30010]
+		[ontologia_Class40007]
+		[ontologia_Class40010])
+	(nombre_autor "GIORGIO DE CHIRICO"))
+
+([ontologia_Class14] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class40007]
+		[ontologia_Class40009]
+		[ontologia_Class40010]
+		[ontologia_Class30008]
+		[ontologia_Class30009]
+		[ontologia_Class30010])
+	(nombre_escuela "PINTURA METAFISICA"))
+
+([ontologia_Class16] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class30011]
+		[ontologia_Class30012]
+		[ontologia_Class30013]
+		[ontologia_Class30015]
+		[ontologia_Class30016]
+		[ontologia_Class30017]
+		[ontologia_Class30018])
+	(nombre_escuela "ABSTRACCION GEOMETRICA"))
+
+([ontologia_Class17] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class30019]
+		[ontologia_Class30020]
+		[ontologia_Class30021]
+		[ontologia_Class30022]
+		[ontologia_Class30023]
+		[ontologia_Class30024])
+	(nombre_escuela "FUTURISMO"))
+
+([ontologia_Class18] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class30025]
+		[ontologia_Class30026]
+		[ontologia_Class30027]
+		[ontologia_Class30028]
+		[ontologia_Class30029])
+	(nombre_escuela "MINIMALISMO"))
+
+([ontologia_Class19] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class30030]
+		[ontologia_Class30033]
+		[ontologia_Class30034]
+		[ontologia_Class30036]
+		[ontologia_Class30038]
+		[ontologia_Class30039]
+		[ontologia_Class30040]
+		[ontologia_Class30042])
+	(nombre_escuela "HIPERREALISMO"))
+
+([ontologia_Class2] of  SALA
+
+	(sala_escuela [ontologia_Class21])
+	(sala_obra
+		[ontologia_Class40011]
+		[ontologia_Class40012]
+		[ontologia_Class40013]
+		[ontologia_Class40014]
+		[ontologia_Class40015]
+		[ontologia_Class40016]
+		[ontologia_Class40017]
+		[ontologia_Class40018]
+		[ontologia_Class40019]
+		[ontologia_Class40020]
+		[ontologia_Class40021]))
+
+([ontologia_Class20] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class20000]
+		[ontologia_Class20002]
+		[ontologia_Class20003]
+		[ontologia_Class30004]
+		[ontologia_Class40005]
+		[ontologia_Class40006]
+		[ontologia_Class50000])
+	(nombre_escuela "CUBISMO"))
+
+([ontologia_Class20000] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "LOS TRES MUSICOS")
+	(obra_autor [ontologia_Class30])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class20001] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "GUERNICA")
+	(obra_autor [ontologia_Class30])
+	(obra_epoca [ontologia_Class48])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class20009])
+	(relevancia 3))
+
+([ontologia_Class20002] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "LES FEMMES D ALGER")
+	(obra_autor [ontologia_Class30])
+	(obra_epoca [ontologia_Class50])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class20003] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "MUJER ACODADA EN LA MESA")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 1))
+
+([ontologia_Class20004] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "LA CREACION DE LAS AVES")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class50])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class10004])
+	(relevancia 1))
+
+([ontologia_Class20005] of  TEMATICA
+
+	(nombre_tematica "RETRATO")
+	(tematica_obras
+		[ontologia_Class10000]
+		[ontologia_Class10012]
+		[ontologia_Class30005]
+		[ontologia_Class30006]
+		[ontologia_Class20003]
+		[ontologia_Class40010]
+		[ontologia_Class40011]
+		[ontologia_Class40012]
+		[ontologia_Class40015]
+		[ontologia_Class40018]
+		[ontologia_Class40021]
+		[ontologia_Class30003]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50012]
+		[ontologia_Class50017]))
+
+([ontologia_Class20006] of  TEMATICA
+
+	(nombre_tematica "ABSTRACTO")
+	(tematica_obras
+		[ontologia_Class7]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30012]
+		[ontologia_Class30015]
+		[ontologia_Class30016]
+		[ontologia_Class30017]
+		[ontologia_Class30026]
+		[ontologia_Class30027]
+		[ontologia_Class30028]
+		[ontologia_Class30029]
+		[ontologia_Class20001]
+		[ontologia_Class20002]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40010]
+		[ontologia_Class10001]))
+
+([ontologia_Class20007] of  TEMATICA
+
+	(nombre_tematica "GEOMETRICO")
+	(tematica_obras
+		[ontologia_Class30009]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30012]
+		[ontologia_Class30013]
+		[ontologia_Class30016]
+		[ontologia_Class30017]
+		[ontologia_Class30018]
+		[ontologia_Class30025]
+		[ontologia_Class30029]))
+
+([ontologia_Class20009] of  TEMATICA
+
+	(nombre_tematica "HISTORICO")
+	(tematica_obras
+		[ontologia_Class20001]
+		[ontologia_Class40014]
+		[ontologia_Class40016]))
+
+([ontologia_Class20010] of  TEMATICA
+
+	(nombre_tematica "COLORIDO")
+	(tematica_obras
+		[ontologia_Class30020]
+		[ontologia_Class30022]
+		[ontologia_Class30024]
+		[ontologia_Class30034]
+		[ontologia_Class30038]
+		[ontologia_Class20000]
+		[ontologia_Class20002]
+		[ontologia_Class40017]
+		[ontologia_Class40019]
+		[ontologia_Class40020]
+		[ontologia_Class40021]
+		[ontologia_Class50005]
+		[ontologia_Class50009]
+		[ontologia_Class50016]
+		[ontologia_Class50018]))
+
+([ontologia_Class21] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class40011]
+		[ontologia_Class40012]
+		[ontologia_Class40013]
+		[ontologia_Class40014]
+		[ontologia_Class40015]
+		[ontologia_Class40016]
+		[ontologia_Class40017]
+		[ontologia_Class40018]
+		[ontologia_Class40019]
+		[ontologia_Class40020]
+		[ontologia_Class40021])
+	(nombre_escuela "EXPRESIONISMO"))
+
+([ontologia_Class22] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class30000]
+		[ontologia_Class30001]
+		[ontologia_Class30002]
+		[ontologia_Class30003]
+		[ontologia_Class40004]
+		[ontologia_Class50005]
+		[ontologia_Class50006])
+	(nombre_escuela "POSTMODERNISMO"))
+
+([ontologia_Class23] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class50007]
+		[ontologia_Class50008]
+		[ontologia_Class50009]
+		[ontologia_Class40019]
+		[ontologia_Class40020])
+	(nombre_escuela "STREET ART"))
+
+([ontologia_Class24] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class50012]
+		[ontologia_Class50013]
+		[ontologia_Class50014]
+		[ontologia_Class50016]
+		[ontologia_Class50017]
+		[ontologia_Class50018]
+		[ontologia_Class30034]
+		[ontologia_Class50009])
+	(nombre_escuela "POP ART"))
+
+([ontologia_Class25] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30011]
+		[ontologia_Class30012]
+		[ontologia_Class30017])
+	(nombre_autor "PIET MONDRIAN"))
+
+([ontologia_Class26] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30019]
+		[ontologia_Class30020])
+	(nombre_autor "GIACOMO BALLA"))
+
+([ontologia_Class27] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30022]
+		[ontologia_Class30024])
+	(nombre_autor "KONSTANTIN YUON"))
+
+([ontologia_Class28] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30026]
+		[ontologia_Class30027]
+		[ontologia_Class30028])
+	(nombre_autor "JIRO YOSHIHARA"))
+
+([ontologia_Class29] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30030]
+		[ontologia_Class30033]
+		[ontologia_Class30039])
+	(nombre_autor "RON MUECK"))
+
+([ontologia_Class3] of  SALA
+
+	(sala_escuela [ontologia_Class20])
+	(sala_obra
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class20002]
+		[ontologia_Class20003]
+		[ontologia_Class30004]
+		[ontologia_Class40005]
+		[ontologia_Class40006]
+		[ontologia_Class50000]))
+
+([ontologia_Class30] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class20000]
+		[ontologia_Class20002])
+	(nombre_autor "PABLO PICASSO"))
+
+([ontologia_Class30000] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "A NEW DAY BEGINS")
+	(obra_autor [ontologia_Class36])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class30037])
+	(relevancia 2))
+
+([ontologia_Class30001] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "WURST SERIES")
+	(obra_autor [ontologia_Class36])
+	(obra_epoca [ontologia_Class52])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class30041])
+	(relevancia 3))
+
+([ontologia_Class30002] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "AFTER WALKER EVANS")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 1))
+
+([ontologia_Class30003] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "IDOLO CON CALAVERA")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 1))
+
+([ontologia_Class30004] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "VIOLON ET PALETTE")
+	(obra_autor [ontologia_Class31])
+	(obra_epoca [ontologia_Class43])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class10004])
+	(relevancia 3))
+
+([ontologia_Class30005] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto TRUE)
+	(nombre_obra "MI NACIMIENTO")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class48])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica
+		[ontologia_Class20005]
+		[ontologia_Class30031])
+	(relevancia 3))
+
+([ontologia_Class30006] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "SOBREVOLANDO LA CIUDAD")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 1))
+
+([ontologia_Class30007] of  TEMATICA
+
+	(nombre_tematica "PAISAJE")
+	(tematica_obras
+		[ontologia_Class30006]
+		[ontologia_Class30021]
+		[ontologia_Class30022]
+		[ontologia_Class30023]
+		[ontologia_Class30042]
+		[ontologia_Class30002]
+		[ontologia_Class40004]
+		[ontologia_Class50008]))
+
+([ontologia_Class30008] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "NATURALEZA MUERTA")
+	(obra_autor [ontologia_Class32])
+	(obra_epoca [ontologia_Class49])
+	(obra_escuela
+		[ontologia_Class5]
+		[ontologia_Class14])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class10004])
+	(relevancia 2))
+
+([ontologia_Class30009] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "IL PROFETA")
+	(obra_autor [ontologia_Class12])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela
+		[ontologia_Class5]
+		[ontologia_Class14])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class20007])
+	(relevancia 2))
+
+([ontologia_Class30010] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "LAS MUSAS INQUIETANTES")
+	(obra_autor [ontologia_Class12])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela
+		[ontologia_Class5]
+		[ontologia_Class14])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica
+		[ontologia_Class20007]
+		[ontologia_Class20006])
+	(relevancia 1))
+
+([ontologia_Class30011] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "BROADWAY BOOGIE-WOOGIE")
+	(obra_autor [ontologia_Class25])
+	(obra_epoca [ontologia_Class49])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica
+		[ontologia_Class20007]
+		[ontologia_Class20006])
+	(relevancia 3))
+
+([ontologia_Class30012] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "PLACE DE LA CONCORDE")
+	(obra_autor [ontologia_Class25])
+	(obra_epoca [ontologia_Class49])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica
+		[ontologia_Class20007]
+		[ontologia_Class20006])
+	(relevancia 2))
+
+([ontologia_Class30013] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "CIRCULOS EN EL CIRCULO")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica [ontologia_Class20007])
+	(relevancia 3))
+
+([ontologia_Class30015] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "TORRE EIFFEL")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 2))
+
+([ontologia_Class30016] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "SUPREMUS NO. 58")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class20007])
+	(relevancia 1))
+
+([ontologia_Class30017] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "TRAFALGAR SQUARE")
+	(obra_autor [ontologia_Class25])
+	(obra_epoca [ontologia_Class49])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class20007])
+	(relevancia 3))
+
+([ontologia_Class30018] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "FOUR SPACES WITH BROKEN CROSS")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class48])
+	(obra_escuela [ontologia_Class16])
+	(obra_sala [ontologia_Class4])
+	(obra_tematica [ontologia_Class20007])
+	(relevancia 1))
+
+([ontologia_Class30019] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "DINAMISMO DI UN CANE AL GUINZAGLIO")
+	(obra_autor [ontologia_Class26])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class17])
+	(obra_sala [ontologia_Class10005])
+	(obra_tematica [ontologia_Class10004])
+	(relevancia 3))
+
+([ontologia_Class30020] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "LAMPADA AD ARCO")
+	(obra_autor [ontologia_Class26])
+	(obra_epoca [ontologia_Class43])
+	(obra_escuela [ontologia_Class17])
+	(obra_sala [ontologia_Class10005])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class30021] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "THE SOUL OF THE SOULLESS CITY")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class17])
+	(obra_sala [ontologia_Class10005])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 1))
+
+([ontologia_Class30022] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "GENTE DEL FUTURO")
+	(obra_autor [ontologia_Class27])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class17])
+	(obra_sala [ontologia_Class10005])
+	(obra_tematica
+		[ontologia_Class20010]
+		[ontologia_Class30007])
+	(relevancia 2))
+
+([ontologia_Class30023] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "PRIMA CHE SI APRA IL PARACADUTE")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class48])
+	(obra_escuela [ontologia_Class17])
+	(obra_sala [ontologia_Class10005])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 1))
+
+([ontologia_Class30024] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "NUEVO PLANETA")
+	(obra_autor [ontologia_Class27])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class17])
+	(obra_sala [ontologia_Class10005])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class30025] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "THE MARRIAGE OF REASON AND SQUALOR")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class50])
+	(obra_escuela [ontologia_Class18])
+	(obra_sala [ontologia_Class0])
+	(obra_tematica [ontologia_Class20007])
+	(relevancia 3))
+
+([ontologia_Class30026] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "RED CIRCLE ON BLACK")
+	(obra_autor [ontologia_Class28])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class18])
+	(obra_sala [ontologia_Class0])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 2))
+
+([ontologia_Class30027] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "WORK")
+	(obra_autor [ontologia_Class28])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class18])
+	(obra_sala [ontologia_Class0])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 1))
+
+([ontologia_Class30028] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "WHITE LINE ON BLACK")
+	(obra_autor [ontologia_Class28])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class18])
+	(obra_sala [ontologia_Class0])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 1))
+
+([ontologia_Class30029] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "WALL DRAWING 370")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class18])
+	(obra_sala [ontologia_Class0])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class20007])
+	(relevancia 1))
+
+([ontologia_Class30030] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto TRUE)
+	(nombre_obra "PAPA MUERTO")
+	(obra_autor [ontologia_Class29])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class30031])
+	(relevancia 3))
+
+([ontologia_Class30031] of  TEMATICA
+
+	(nombre_tematica "DESNUDO")
+	(tematica_obras
+		[ontologia_Class30030]
+		[ontologia_Class30005]
+		[ontologia_Class10002]
+		[ontologia_Class30033]
+		[ontologia_Class30039]
+		[ontologia_Class40006]))
+
+([ontologia_Class30033] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto TRUE)
+	(nombre_obra "MAN IN A BOAT")
+	(obra_autor [ontologia_Class29])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class30031])
+	(relevancia 2))
+
+([ontologia_Class30034] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "THUNDER SMASH")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class52])
+	(obra_escuela
+		[ontologia_Class19]
+		[ontologia_Class24])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class30036] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "LA HORA DEL TE")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class30037])
+	(relevancia 1))
+
+([ontologia_Class30037] of  TEMATICA
+
+	(nombre_tematica "BODEGON")
+	(tematica_obras
+		[ontologia_Class30036]
+		[ontologia_Class30000]
+		[ontologia_Class50000]))
+
+([ontologia_Class30038] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "CIRCUS ACT")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class30039] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto TRUE)
+	(nombre_obra "SPOONING COUPLES")
+	(obra_autor [ontologia_Class29])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class30031])
+	(relevancia 3))
+
+([ontologia_Class30040] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "ROOM")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class30041])
+	(relevancia 1))
+
+([ontologia_Class30041] of  TEMATICA
+
+	(nombre_tematica "INTERIOR")
+	(tematica_obras
+		[ontologia_Class30040]
+		[ontologia_Class40006]
+		[ontologia_Class40009]
+		[ontologia_Class30001]))
+
+([ontologia_Class30042] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "UNTITLED")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class52])
+	(obra_escuela [ontologia_Class19])
+	(obra_sala [ontologia_Class1])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 1))
+
+([ontologia_Class31] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30004]
+		[ontologia_Class40005]
+		[ontologia_Class50000])
+	(nombre_autor "GEORGES BRAQUE"))
+
+([ontologia_Class32] of  AUTOR
+
+	(autor_obra [ontologia_Class30008])
+	(nombre_autor "FELIX NUSSBAUM"))
+
+([ontologia_Class33] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class40011]
+		[ontologia_Class40012])
+	(nombre_autor "BORIS GRIGORIEV"))
+
+([ontologia_Class34] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class40015]
+		[ontologia_Class40016])
+	(nombre_autor "JAMES ENSOR"))
+
+([ontologia_Class35] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class40018]
+		[ontologia_Class40021])
+	(nombre_autor "EDVARD MUNCH"))
+
+([ontologia_Class36] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class30000]
+		[ontologia_Class30001])
+	(nombre_autor "FISCHLI / WEISS"))
+
+([ontologia_Class37] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class40019]
+		[ontologia_Class40020])
+	(nombre_autor "JEAN MICHEL BASQUIAT"))
+
+([ontologia_Class38] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class50007]
+		[ontologia_Class50008])
+	(nombre_autor "BANSKY"))
+
+([ontologia_Class4] of  SALA
+
+	(sala_escuela [ontologia_Class16])
+	(sala_obra
+		[ontologia_Class30011]
+		[ontologia_Class30012]
+		[ontologia_Class30013]
+		[ontologia_Class30015]
+		[ontologia_Class30016]
+		[ontologia_Class30017]
+		[ontologia_Class30018]))
+
+([ontologia_Class40] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class50012]
+		[ontologia_Class50013]
+		[ontologia_Class50014])
+	(nombre_autor "ANDY WARHOL"))
+
+([ontologia_Class40000] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class30010]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50009]
+		[ontologia_Class10001])
+	(dayThree
+		[ontologia_Class10002]
+		[ontologia_Class30005]
+		[ontologia_Class30012]
+		[ontologia_Class30024]
+		[ontologia_Class30030]
+		[ontologia_Class20002]
+		[ontologia_Class40010]
+		[ontologia_Class40015]
+		[ontologia_Class50014]
+		[ontologia_Class10000]
+		[ontologia_Class40004]
+		[ontologia_Class30026])
+	(dayTwo
+		[ontologia_Class7]
+		[ontologia_Class30008]
+		[ontologia_Class30011]
+		[ontologia_Class30017]
+		[ontologia_Class30021]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class40017]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50013]
+		[ontologia_Class30025])
+	(pred_name "short3"))
+
+([ontologia_Class40001] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class7]
+		[ontologia_Class10001]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class30021]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40017]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50009]
+		[ontologia_Class50013]
+		[ontologia_Class30025])
+	(pred_name "intermediate1"))
+
+([ontologia_Class40002] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class7]
+		[ontologia_Class10001]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class30021]
+		[ontologia_Class30025]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40017]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50009]
+		[ontologia_Class50013])
+	(dayTwo
+		[ontologia_Class30008]
+		[ontologia_Class30017]
+		[ontologia_Class10000]
+		[ontologia_Class10002]
+		[ontologia_Class30005]
+		[ontologia_Class30012]
+		[ontologia_Class30024]
+		[ontologia_Class30026]
+		[ontologia_Class30030]
+		[ontologia_Class20002]
+		[ontologia_Class40010]
+		[ontologia_Class40015]
+		[ontologia_Class40004]
+		[ontologia_Class50014]
+		[ontologia_Class30033]
+		[ontologia_Class40005]
+		[ontologia_Class30009]
+		[ontologia_Class30015]
+		[ontologia_Class40012]
+		[ontologia_Class40019]
+		[ontologia_Class30034]
+		[ontologia_Class50017])
+	(pred_name "intermediate2"))
+
+([ontologia_Class40003] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class7]
+		[ontologia_Class10001]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class30021]
+		[ontologia_Class30025]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40017]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50009]
+		[ontologia_Class50013])
+	(dayThree
+		[ontologia_Class30020]
+		[ontologia_Class30022]
+		[ontologia_Class30038]
+		[ontologia_Class50000]
+		[ontologia_Class40013]
+		[ontologia_Class40014]
+		[ontologia_Class40016]
+		[ontologia_Class40018]
+		[ontologia_Class40020]
+		[ontologia_Class30000]
+		[ontologia_Class50008]
+		[ontologia_Class50012]
+		[ontologia_Class50016]
+		[ontologia_Class20004]
+		[ontologia_Class30006]
+		[ontologia_Class30018]
+		[ontologia_Class30028]
+		[ontologia_Class20003]
+		[ontologia_Class40006]
+		[ontologia_Class40009]
+		[ontologia_Class30002]
+		[ontologia_Class50005])
+	(dayTwo
+		[ontologia_Class30008]
+		[ontologia_Class30017]
+		[ontologia_Class10000]
+		[ontologia_Class10002]
+		[ontologia_Class30005]
+		[ontologia_Class30012]
+		[ontologia_Class30024]
+		[ontologia_Class30026]
+		[ontologia_Class30030]
+		[ontologia_Class20002]
+		[ontologia_Class40010]
+		[ontologia_Class40015]
+		[ontologia_Class40004]
+		[ontologia_Class50014]
+		[ontologia_Class30033]
+		[ontologia_Class40005]
+		[ontologia_Class30009]
+		[ontologia_Class30015]
+		[ontologia_Class40012]
+		[ontologia_Class40019]
+		[ontologia_Class30034]
+		[ontologia_Class50017])
+	(pred_name "intermediate3"))
+
+([ontologia_Class40004] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "SOUTINE STREET")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 1))
+
+([ontologia_Class40005] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "BODEGON CON MESA: GILLETTE")
+	(obra_autor [ontologia_Class31])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica [ontologia_Class10004])
+	(relevancia 2))
+
+([ontologia_Class40006] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "TROIS FEMMES")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica
+		[ontologia_Class30031]
+		[ontologia_Class30041])
+	(relevancia 1))
+
+([ontologia_Class40007] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "LA CANCION DEL AMOR")
+	(obra_autor [ontologia_Class12])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class14])
+	(obra_sala [ontologia_Class10006])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 3))
+
+([ontologia_Class40009] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "EL IDOLO HERMAFRODITA")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class14])
+	(obra_sala [ontologia_Class10006])
+	(obra_tematica [ontologia_Class30041])
+	(relevancia 1))
+
+([ontologia_Class40010] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "LA AMANTE DEL INGENIERO")
+	(obra_autor [ontologia_Class12])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class14])
+	(obra_sala [ontologia_Class10006])
+	(obra_tematica
+		[ontologia_Class20006]
+		[ontologia_Class20005])
+	(relevancia 1))
+
+([ontologia_Class40011] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "LES ENFANTS")
+	(obra_autor [ontologia_Class33])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 3))
+
+([ontologia_Class40012] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto TRUE)
+	(nombre_obra "INTIMITE")
+	(obra_autor [ontologia_Class33])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 2))
+
+([ontologia_Class40013] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "LAS TENTACIONES DE SAN JERONIMO")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class49])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class10003])
+	(relevancia 1))
+
+([ontologia_Class40014] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "AUSREITENDE HUSAREN")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica
+		[ontologia_Class20009]
+		[ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class40015] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "ENSOR AUX MASQUES")
+	(obra_autor [ontologia_Class34])
+	(obra_epoca [ontologia_Class43])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 3))
+
+([ontologia_Class40016] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "SQUELETTES SE DISPUTANT UN HARENGSAUR")
+	(obra_autor [ontologia_Class34])
+	(obra_epoca [ontologia_Class43])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20009])
+	(relevancia 2))
+
+([ontologia_Class40017] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "KATER AUF GELBEM KISSEN")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class44])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 3))
+
+([ontologia_Class40018] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "SJALUSI")
+	(obra_autor [ontologia_Class35])
+	(obra_epoca [ontologia_Class43])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 2))
+
+([ontologia_Class40019] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "IN ITALIAN")
+	(obra_autor [ontologia_Class37])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela
+		[ontologia_Class21]
+		[ontologia_Class23])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class40020] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "PHILISTINES")
+	(obra_autor [ontologia_Class37])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela
+		[ontologia_Class21]
+		[ontologia_Class23])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class40021] of  OBRA_DE_ARTE
+
+	(complejidad 3)
+	(contenido_adulto FALSE)
+	(nombre_obra "SKRIK")
+	(obra_autor [ontologia_Class35])
+	(obra_epoca [ontologia_Class43])
+	(obra_escuela [ontologia_Class21])
+	(obra_sala [ontologia_Class2])
+	(obra_tematica
+		[ontologia_Class20010]
+		[ontologia_Class20005])
+	(relevancia 3))
+
+([ontologia_Class41] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class50016]
+		[ontologia_Class50017])
+	(nombre_autor "ROY LICHTENSTEIN"))
+
+([ontologia_Class42] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class20004]
+		[ontologia_Class30005]
+		[ontologia_Class30006]
+		[ontologia_Class30013]
+		[ontologia_Class30015]
+		[ontologia_Class30016]
+		[ontologia_Class30018]
+		[ontologia_Class30021]
+		[ontologia_Class30023]
+		[ontologia_Class30025]
+		[ontologia_Class30029]
+		[ontologia_Class30034]
+		[ontologia_Class30036]
+		[ontologia_Class30038]
+		[ontologia_Class30040]
+		[ontologia_Class30042]
+		[ontologia_Class20003]
+		[ontologia_Class40006]
+		[ontologia_Class40009]
+		[ontologia_Class40013]
+		[ontologia_Class40014]
+		[ontologia_Class40017]
+		[ontologia_Class30002]
+		[ontologia_Class30003]
+		[ontologia_Class40004]
+		[ontologia_Class50005]
+		[ontologia_Class50006]
+		[ontologia_Class50009]
+		[ontologia_Class50018])
+	(nombre_autor "UNDEFINED"))
+
+([ontologia_Class43] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30020]
+		[ontologia_Class30004]
+		[ontologia_Class40015]
+		[ontologia_Class40016]
+		[ontologia_Class40018]
+		[ontologia_Class40021])
+	(nombre_epoca "1900s"))
+
+([ontologia_Class44] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30006]
+		[ontologia_Class30009]
+		[ontologia_Class30010]
+		[ontologia_Class30015]
+		[ontologia_Class30016]
+		[ontologia_Class30019]
+		[ontologia_Class20003]
+		[ontologia_Class40005]
+		[ontologia_Class40007]
+		[ontologia_Class40009]
+		[ontologia_Class40012]
+		[ontologia_Class40014]
+		[ontologia_Class40017])
+	(nombre_epoca "1910s"))
+
+([ontologia_Class45] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class7]
+		[ontologia_Class10012]
+		[ontologia_Class30013]
+		[ontologia_Class30021]
+		[ontologia_Class30022]
+		[ontologia_Class30024]
+		[ontologia_Class20000]
+		[ontologia_Class40006]
+		[ontologia_Class40010]
+		[ontologia_Class40011]
+		[ontologia_Class50000])
+	(nombre_epoca "1920s"))
+
+([ontologia_Class46] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30029]
+		[ontologia_Class30030]
+		[ontologia_Class30038]
+		[ontologia_Class30040]
+		[ontologia_Class40019]
+		[ontologia_Class40020]
+		[ontologia_Class30000]
+		[ontologia_Class30003]
+		[ontologia_Class50005]
+		[ontologia_Class50009])
+	(nombre_epoca "1980s - 1990s"))
+
+([ontologia_Class47] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30033]
+		[ontologia_Class30036]
+		[ontologia_Class30039]
+		[ontologia_Class40004]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50008]
+		[ontologia_Class50018])
+	(nombre_epoca "2000s - NOWADAYS"))
+
+([ontologia_Class48] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class10001]
+		[ontologia_Class30005]
+		[ontologia_Class30018]
+		[ontologia_Class30023])
+	(nombre_epoca "1930s"))
+
+([ontologia_Class49] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30008]
+		[ontologia_Class30011]
+		[ontologia_Class30012]
+		[ontologia_Class30017]
+		[ontologia_Class10002]
+		[ontologia_Class40013])
+	(nombre_epoca "1940s"))
+
+([ontologia_Class5] of  ESCUELA
+
+	(escuela_obra
+		[ontologia_Class7]
+		[ontologia_Class10000]
+		[ontologia_Class10012]
+		[ontologia_Class10001]
+		[ontologia_Class10002]
+		[ontologia_Class20004]
+		[ontologia_Class30005]
+		[ontologia_Class30006]
+		[ontologia_Class30008]
+		[ontologia_Class30009]
+		[ontologia_Class30010])
+	(nombre_escuela "SURREALISMO"))
+
+([ontologia_Class50] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class10000]
+		[ontologia_Class20004]
+		[ontologia_Class30025]
+		[ontologia_Class20002])
+	(nombre_epoca "1950s"))
+
+([ontologia_Class50000] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "NATURE MORTE AUX CITRONS")
+	(obra_autor [ontologia_Class31])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class20])
+	(obra_sala [ontologia_Class3])
+	(obra_tematica [ontologia_Class30037])
+	(relevancia 2))
+
+([ontologia_Class50004] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class40021]
+		[ontologia_Class10012]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class50009]
+		[ontologia_Class20001]
+		[ontologia_Class40011]
+		[ontologia_Class30001]
+		[ontologia_Class30010]
+		[ontologia_Class10001])
+	(pred_name "short1"))
+
+([ontologia_Class50005] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto FALSE)
+	(nombre_obra "MORE LOVE HOURS THAN CAN EVER BE REPAID")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 1))
+
+([ontologia_Class50006] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "RETRATO DEL POLITICO LINCOLN")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class22])
+	(obra_sala [ontologia_Class10008])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 3))
+
+([ontologia_Class50007] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "NINA CON GLOBO")
+	(obra_autor [ontologia_Class38])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class23])
+	(obra_sala [ontologia_Class10009])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 3))
+
+([ontologia_Class50008] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "POSTAL DE BELEN")
+	(obra_autor [ontologia_Class38])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class23])
+	(obra_sala [ontologia_Class10009])
+	(obra_tematica [ontologia_Class30007])
+	(relevancia 2))
+
+([ontologia_Class50009] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "BEST BUDDIES")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class46])
+	(obra_escuela
+		[ontologia_Class23]
+		[ontologia_Class24])
+	(obra_sala [ontologia_Class10009])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 3))
+
+([ontologia_Class50012] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "MAO")
+	(obra_autor [ontologia_Class40])
+	(obra_epoca [ontologia_Class52])
+	(obra_escuela [ontologia_Class24])
+	(obra_sala [ontologia_Class10007])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 2))
+
+([ontologia_Class50013] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "LATAS DE SOPA CAMPBELL")
+	(obra_autor [ontologia_Class40])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class24])
+	(obra_sala [ontologia_Class10007])
+	(obra_tematica [ontologia_Class10004])
+	(relevancia 3))
+
+([ontologia_Class50014] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "BANANA")
+	(obra_autor [ontologia_Class40])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class24])
+	(obra_sala [ontologia_Class10007])
+	(obra_tematica [ontologia_Class10004])
+	(relevancia 3))
+
+([ontologia_Class50016] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "KISS V")
+	(obra_autor [ontologia_Class41])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class24])
+	(obra_sala [ontologia_Class10007])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 2))
+
+([ontologia_Class50017] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "WOMAN IN BATH")
+	(obra_autor [ontologia_Class41])
+	(obra_epoca [ontologia_Class51])
+	(obra_escuela [ontologia_Class24])
+	(obra_sala [ontologia_Class10007])
+	(obra_tematica [ontologia_Class20005])
+	(relevancia 2))
+
+([ontologia_Class50018] of  OBRA_DE_ARTE
+
+	(complejidad 1)
+	(contenido_adulto FALSE)
+	(nombre_obra "OPEN YOUR HANDS WIDE, EMBRACE HAPPINESS")
+	(obra_autor [ontologia_Class42])
+	(obra_epoca [ontologia_Class47])
+	(obra_escuela [ontologia_Class24])
+	(obra_sala [ontologia_Class10007])
+	(obra_tematica [ontologia_Class20010])
+	(relevancia 1))
+
+([ontologia_Class51] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30026]
+		[ontologia_Class30027]
+		[ontologia_Class30028]
+		[ontologia_Class50013]
+		[ontologia_Class50014]
+		[ontologia_Class50016]
+		[ontologia_Class50017])
+	(nombre_epoca "1960s"))
+
+([ontologia_Class52] of  EPOCA
+
+	(epoca_obra
+		[ontologia_Class30034]
+		[ontologia_Class30042]
+		[ontologia_Class30001]
+		[ontologia_Class50012])
+	(nombre_epoca "1970s"))
+
+([ontologia_Class6] of  AUTOR
+
+	(autor_obra
+		[ontologia_Class7]
+		[ontologia_Class10000]
+		[ontologia_Class10012]
+		[ontologia_Class10001]
+		[ontologia_Class10002])
+	(nombre_autor "SALVADOR DALI"))
+
+([ontologia_Class60004] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class10001]
+		[ontologia_Class7]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class30021]
+		[ontologia_Class30025]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40017]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50009]
+		[ontologia_Class50013]
+		[ontologia_Class30017]
+		[ontologia_Class50014])
+	(pred_name "long1"))
+
+([ontologia_Class60005] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class7]
+		[ontologia_Class10001]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30013]
+		[ontologia_Class30017]
+		[ontologia_Class30019]
+		[ontologia_Class30021]
+		[ontologia_Class30025]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40017]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50009]
+		[ontologia_Class50013]
+		[ontologia_Class50014])
+	(dayTwo
+		[ontologia_Class10000]
+		[ontologia_Class10002]
+		[ontologia_Class30005]
+		[ontologia_Class30008]
+		[ontologia_Class30009]
+		[ontologia_Class30012]
+		[ontologia_Class30015]
+		[ontologia_Class30024]
+		[ontologia_Class30026]
+		[ontologia_Class30030]
+		[ontologia_Class30033]
+		[ontologia_Class30034]
+		[ontologia_Class20002]
+		[ontologia_Class40005]
+		[ontologia_Class40010]
+		[ontologia_Class40012]
+		[ontologia_Class40015]
+		[ontologia_Class40019]
+		[ontologia_Class40004]
+		[ontologia_Class50017]
+		[ontologia_Class50008]
+		[ontologia_Class30000]
+		[ontologia_Class50000]
+		[ontologia_Class30022])
+	(pred_name "long2"))
+
+([ontologia_Class60006] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class7]
+		[ontologia_Class10001]
+		[ontologia_Class30010]
+		[ontologia_Class30011]
+		[ontologia_Class30013]
+		[ontologia_Class30017]
+		[ontologia_Class30019]
+		[ontologia_Class30021]
+		[ontologia_Class30025]
+		[ontologia_Class30039]
+		[ontologia_Class20000]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40017]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class50009]
+		[ontologia_Class50013]
+		[ontologia_Class50014])
+	(dayThree
+		[ontologia_Class20004]
+		[ontologia_Class30006]
+		[ontologia_Class30018]
+		[ontologia_Class30020]
+		[ontologia_Class30028]
+		[ontologia_Class30038]
+		[ontologia_Class20003]
+		[ontologia_Class40006]
+		[ontologia_Class40009]
+		[ontologia_Class40013]
+		[ontologia_Class40014]
+		[ontologia_Class40016]
+		[ontologia_Class40018]
+		[ontologia_Class40020]
+		[ontologia_Class30002]
+		[ontologia_Class50005]
+		[ontologia_Class50012]
+		[ontologia_Class50016]
+		[ontologia_Class30003]
+		[ontologia_Class30042]
+		[ontologia_Class30027]
+		[ontologia_Class30023]
+		[ontologia_Class30016]
+		[ontologia_Class50018])
+	(dayTwo
+		[ontologia_Class10000]
+		[ontologia_Class10002]
+		[ontologia_Class30005]
+		[ontologia_Class30008]
+		[ontologia_Class30009]
+		[ontologia_Class30012]
+		[ontologia_Class30015]
+		[ontologia_Class30022]
+		[ontologia_Class30024]
+		[ontologia_Class30026]
+		[ontologia_Class30030]
+		[ontologia_Class30033]
+		[ontologia_Class30034]
+		[ontologia_Class20002]
+		[ontologia_Class50000]
+		[ontologia_Class40005]
+		[ontologia_Class40010]
+		[ontologia_Class40012]
+		[ontologia_Class40015]
+		[ontologia_Class40019]
+		[ontologia_Class30000]
+		[ontologia_Class40004]
+		[ontologia_Class50008]
+		[ontologia_Class50017])
+	(pred_name "long3"))
+
+([ontologia_Class60007] of  RECORRIDO
+
+	(dayOne
+		[ontologia_Class10012]
+		[ontologia_Class30010]
+		[ontologia_Class30013]
+		[ontologia_Class30019]
+		[ontologia_Class20001]
+		[ontologia_Class30004]
+		[ontologia_Class40007]
+		[ontologia_Class40011]
+		[ontologia_Class40021]
+		[ontologia_Class30001]
+		[ontologia_Class50009]
+		[ontologia_Class10001])
+	(dayTwo
+		[ontologia_Class30039]
+		[ontologia_Class50013]
+		[ontologia_Class7]
+		[ontologia_Class30011]
+		[ontologia_Class30017]
+		[ontologia_Class30021]
+		[ontologia_Class20000]
+		[ontologia_Class40017]
+		[ontologia_Class50006]
+		[ontologia_Class50007]
+		[ontologia_Class30008]
+		[ontologia_Class30025])
+	(pred_name "short2"))
+
+([ontologia_Class7] of  OBRA_DE_ARTE
+
+	(complejidad 2)
+	(contenido_adulto TRUE)
+	(nombre_obra "EL GRAN MASTURBADOR")
+	(obra_autor [ontologia_Class6])
+	(obra_epoca [ontologia_Class45])
+	(obra_escuela [ontologia_Class5])
+	(obra_sala [ontologia_Class10])
+	(obra_tematica [ontologia_Class20006])
+	(relevancia 3))
