@@ -7,3 +7,5 @@ Después de cada ejecución, si se desea realizar otra se debe ejecutar *(clear)
 
 
 El recorrido generado esta dividido por las salas y por dia, aporta la informacion del tiempo de visita por obra aproximado y una justificación general de los criterios utilizados para elegir las obras.
+
+>Developed in the context of the Artificial Intelligence course of FIB [UPC] during the fall quarter of 2020.
